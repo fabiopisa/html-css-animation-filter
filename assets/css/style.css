@@ -168,6 +168,7 @@ border-radius: 20px;
   transform: scale(1.5);
 }
 
+/* ES 10 */
 .ex-10-icon{
   animation: infinite linear;
   animation-duration: 1s;
@@ -184,6 +185,8 @@ border-radius: 20px;
   }
 }
 
+/* / ES 10 */
+/* ES 11 */
 .ex-11-icon:hover{
   animation: linear ;
   animation-duration: 2s;
@@ -201,9 +204,12 @@ border-radius: 20px;
     transform: rotate(0deg);
   }
 }
+/* / ES 11 */
 
+/* ES 12 */
 .ex-12-top-white,
-.ex-12-bottom-white {
+.ex-12-bottom-white
+{
   animation: linear ;
   animation-duration: 3s;
 }
@@ -240,10 +246,11 @@ border-radius: 20px;
     left: calc(80% - 60px);
   }
 }
+/* / ES 12 */
 
+/* ES 13 */
 .ex-13-top-white,
 .ex-13-bottom-white {
-  position: absolute;
   animation: linear ;
   animation-duration: 3s;
 }
@@ -255,18 +262,33 @@ border-radius: 20px;
 @keyframes ex-13{
   0%{
     left:10% ;
+    top:-10px;
   }
-  25%{
-    left: calc(100% - 60px);
+  20%{
+    left: calc(100% - 30px);
+    top:-10px;
   }
-  50%{
-    left: calc(100% - 60px);
-    top:10%;
+  40%{
+    left: calc(100% - 30px);
+    top:100%;
   }
 
-  75%{
-
+  60%{
+    left: -30px;
+    top:100%;
   }
+
+  80%{
+    left:-30px ;
+    top:-10px;
+  }
+  
+  100%{
+    left:10% ;
+    top:-10px;
+  }
+
+  
 }
 
 .ex-13-bottom-white{
@@ -276,14 +298,33 @@ border-radius: 20px;
 @keyframes ex-13a{
   0%{
     left: calc(80% - 60px);
-    
+    bottom: -10px;
   }
-  50%{
-    left:10% ;
+  20%{
+    left: -30px;
+    bottom: -10px;
   }
+  40%{
+    left:-30px ;
+    bottom:calc(100% - 10px);
+  }
+
+  60%{
+    left: calc(100% - 30px);
+    bottom:calc(100% - 10px);
+  }
+
+  80%{
+    left: calc(100% - 30px);
+    bottom:-10px;
+  }
+
   100%{
     left: calc(80% - 60px);
+    bottom: -10px;
   }
 }
+
+/* / ES 13 */
 
 /* / comandi effeti */
