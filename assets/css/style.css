@@ -211,10 +211,10 @@ border-radius: 20px;
 .ex-12-bottom-white
 {
   animation: linear ;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
-.ex-12-top-white{
+.ex-12-button:hover .ex-12-top-white{
   animation-name: ex-12;
 }
 
@@ -230,7 +230,7 @@ border-radius: 20px;
   }
 }
 
-.ex-12-bottom-white{
+.ex-12-button:hover .ex-12-bottom-white{
   animation-name: ex-12a;
 }
 
@@ -255,7 +255,7 @@ border-radius: 20px;
   animation-duration: 3s;
 }
 
-.ex-13-top-white{
+.ex-13-button:hover .ex-13-top-white{
   animation-name: ex-13;
 }
 
@@ -291,7 +291,7 @@ border-radius: 20px;
   
 }
 
-.ex-13-bottom-white{
+.ex-13-button:hover .ex-13-bottom-white{
   animation-name: ex-13a;
 }
 
